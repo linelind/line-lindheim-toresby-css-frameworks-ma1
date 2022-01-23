@@ -1,0 +1,8 @@
+.navbar {
+  background-color: var(--nav-colour) !important;
+  text-transform: uppercase;
+}
+
+.navbar .navbar-nav .active > .nav-link {
+  color: var(--pink);
+}

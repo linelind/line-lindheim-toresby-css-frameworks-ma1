@@ -1,0 +1,17 @@
+.embed-responsive-1by1 {
+  padding: 20px;
+  background: var(--nav-colour);
+  margin: 15px 5px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px var(--shadow);
+}
+
+.container__item--white {
+  border: 3px solid var(--pink);
+  background: var(--white);
+}
+
+.container__item--pink {
+  border: 3px solid var(--white);
+  background: var(--pink);
+}
