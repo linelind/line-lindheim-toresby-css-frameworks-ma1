@@ -32,7 +32,7 @@ h1 {
   font-size: 28px;
 }
 
-footer {
+.footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,11 +45,11 @@ footer {
   margin-top: 32px;
   font-size: 12px;
   color: var(--grey);
-  padding: 10px;
+  padding: 10px 75px;
 }
 
 @media (max-width: 600px) {
-  footer {
+  .footer {
     display: block;
     text-align: center;
     background: var(--white);
@@ -67,6 +67,18 @@ footer {
 .navbar {
   background-color: var(--nav-colour) !important;
   text-transform: uppercase;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding-right: 40px;
+  }
+}
+
+.navbar__toggler {
+  border: none;
 }
 
 .navbar .navbar-nav .active > .nav-link {

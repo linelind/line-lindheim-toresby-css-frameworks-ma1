@@ -1,6 +1,16 @@
 .navbar {
   background-color: var(--nav-colour) !important;
   text-transform: uppercase;
+  padding-left: 75px;
+  padding-right: 75px;
+
+  @media (max-width: 600px) {
+    padding-right: 40px;
+  }
+}
+
+.navbar__toggler {
+  border: none;
 }
 
 .navbar .navbar-nav .active > .nav-link {
